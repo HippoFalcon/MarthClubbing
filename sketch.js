@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  ellipse( mouseX , mouseY , 10 , 10 );
-  fill( 0 , 0 , 255 );
+  line( mouseX , mouseY , 10 , 10 );
+  fill( 0 , 0 , 255 , 50);
   noStroke();
 }
