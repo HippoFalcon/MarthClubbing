@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  line( mouseX , mouseY , 10 , 10 );
-  fill( 0 , 0 , 255 , 50);
+  line( mouseX , mouseY , 50 , 50 );
+  fill( 0 , 0 , 255 );
   noStroke();
 }
