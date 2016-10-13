@@ -3,8 +3,8 @@ function setup() {
 }
 
 function draw() {
-  ellipse( mouseX , mouseY , mouseX , mouseY  );
-  fill( 9 , 133, 255 );
+  ellipse( mouseX , mouseX , mouseY , mouseY  );
+  fill( 9 , 133, 25 );
   noStroke();
-  background(255 , 73 , 43 , 40 );
+  background(145 , 73 , 43 , 40 );
 }
