@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas( 800 , 800 );
+  createCanvas( windowX , windowY );
   background(255 , 0 , 0);
 }
 
 function draw() {
-  ellipse( mouseX , mouseY , 100 , 100 );
+  ellipse( mouseX , mouseY , 10 , 10 );
   fill( 0 , 255 , 0 );
   noStroke();
 }
