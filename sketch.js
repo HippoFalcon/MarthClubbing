@@ -1,6 +1,5 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
-  background(255 , 0 , 0 , 40);
 }
 
 function draw() {
@@ -9,4 +8,5 @@ function draw() {
   noStroke();
   triangle( mouseX+40 , mouseY+30 , mouseX-40 , mouseY+30, mouseX , mouseY-40);
   fill(  0 , 255 , 0 );
+  background(255 , 0 , 0 , 40 );
 }
