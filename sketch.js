@@ -6,20 +6,16 @@ function setup() {
 
 function draw() {
   ellipse( mouseX , mouseY , 21 , 21  );
-  fill( 104 , 0, 0 , 40);
+  fill( 104 , 0, 0 , 25);
   noStroke();
   
   ellipse( mouseX , mouseY, 13 , 13 );
-  fill( 0 , 104 , 0 , 40);
+  fill( 0 , 104 , 0 , 25);
   noStroke();
   
   ellipse(mouseX , mouseY , 7 , 7);
-  fill(0 , 0 , 104 , 40);
+  fill(0 , 0 , 104 , 25);
   noStroke();
   
-  ellipse(mouseX , mouseY , 1 , 1);
-  fill(13,13,13,40)
-  noStroke();
-
 
 }
