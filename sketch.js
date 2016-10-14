@@ -5,7 +5,11 @@ function setup() {
 }
 
 function draw() {
-  ellipse( mouseX , mouseY , mouseX , mouseY  );
+  ellipse( mouseX , mouseY , 21 , 21  );
   fill( 104 , 0, 0 );
   noStroke();
+  
+  ellipse( mouseX , mouseY, 13 , 13);
+  fill( 98 , 0 , 0 )
+  noStroke()
 }
