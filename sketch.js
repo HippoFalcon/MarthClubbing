@@ -9,7 +9,7 @@ function draw() {
   fill( 104 , 0, 0 );
   noStroke();
   
-  ellipse( mouseX , mouseY, 13 , 13);
+  rect( mouseX , mouseY, 13 , 13 , mouseX-13 , mouseY-13 , mouseX+13 , mouseY+13);
   fill( 0 , 104 , 0 )
   noStroke()
 }
